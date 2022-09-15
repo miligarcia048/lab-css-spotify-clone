@@ -1,8 +1,173 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text:
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+}
+
+header img {
+    width: 10%;
+    margin: 21px;
+}
+
+.menuItems {
+    float: right;
+    margin: 35px 35px;
+}
+
+.menuItems a {
+    font-size: 19px;
+    margin-right: 15px;
+}
+
+.banner {
+    height: 95vh;
+    background-image: url("../images/landing.jpg");
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 65px;
+}
+
+h3 {
+    color: white;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 200!important;
+    width: 35%;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 35px;
+    border-bottom: 3px solid #00B172;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #00B172;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.icons div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.songs {
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.icons div img {
+    height: 80px;
+}
+
+.icons div h5 {
+    margin-top: 20px;
+}
+
+.icons div p {
+    margin-top: 15px;
+    width: 55%;
+    text-align: center;
+}
+
+section {
+    margin: 50px 250px;
+}
+
+.green {
+    background-color: #00B172;
+    color: white;
+}
+
+.greenSection {
+    display: flex;
+    margin-top: 20px;
+}
+
+.green-title {
+    color: white;
+    border-bottom: white 3px solid;
+    margin-bottom: 55px;
+    width: 38%;
+    padding-bottom: 8px;
+}
+
+.spotify-screen {
+    width: 60%;
+    float: right;
+    position: relative;
+    bottom: 70px;
+}
+
+.spotify-logo-white {
+    position: relative;
+    height: 115px;
+    top: 100px;
+    left: 110px;
+}
+
+.text-green-section {
+    width: 42%;
+}
+
+.greenSection h6 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+.greenSection p {
+    line-height: 28px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 38px;
+    font-weight: 200;
+}
+
+.green-margins {
+    padding: 40px 40px 0px 40px;
+}
